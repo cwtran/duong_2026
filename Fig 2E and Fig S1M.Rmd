@@ -1,5 +1,5 @@
 ---
-title: "Figure 2E and Supplemental Figure 1M - Duong et al Immunity 2025"
+title: "Figure 3B and Supplemental Figure 1M - Duong et al Immunity 2026"
 output: html_notebook
 author: "Charles Tran"
 date: "Sept 13, 2024"
@@ -285,7 +285,7 @@ ggsave("OS_FCGR_sig_and_selected_genes.png", plot=OS.surv.temp, height=5, width=
 ```
 
 
-## Forest plots and OS HR for Fig 2E and S1M
+## Forest plots and OS HR for Fig 3B and S1M
 ```{r}
 # need signature high and low, then for each high/low, compare tira+atezo vs atezo
 # generate custom table for input into forestploter
